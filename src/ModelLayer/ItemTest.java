@@ -5,12 +5,8 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class ItemTest {
+	
 	private Item item = new Item(321, "koben", 59.50, "Koben af Jern", Item.Location.TRAELAST, 2, 15);
-	private ItemContainer itemCon;
-
-	@Test
-	public void testItem() {
-	}
 
 	@Test
 	public void testGetBarcode() {
